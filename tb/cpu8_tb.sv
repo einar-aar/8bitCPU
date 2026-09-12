@@ -79,7 +79,7 @@ module cpu8_tb;
                 if (dut.ram.mem[8'hf0] !== 8'h37)
                     $fatal(1, "RAM-test feilet");
 
-                $display("PASS: CPU-test fullfort");
+                $display("PASS: CPU test completed");
                 $finish;
             end
             begin
